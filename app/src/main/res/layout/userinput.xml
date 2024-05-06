@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userinput">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_register_head"
+                android:layout_marginTop="30dp"
+                android:text="Please Enter Your Details"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+            <TextView
+                android:id="@+id/textViewDegree"
+                android:layout_below="@id/textView_register_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Degree"
+                android:textColor="@color/bluishblack"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:layout_marginTop="50dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextDegree"
+                android:hint="Enter your Degree"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_below="@id/textView_register_full_name"
+                android:background="@drawable/border"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewMajor"
+                android:layout_below="@id/editText_register_full_name"
+                android:text="Your Major"
+                android:textColor="@color/bluishblack"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextMajor"
+                android:hint="Enter your Major"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_below="@id/textView_register_email"
+                android:background="@drawable/border"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewUniversity"
+                android:layout_below="@id/editText_register_email"
+                android:text="Your University"
+                android:textColor="@color/bluishblack"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextUniversity"
+                android:hint="Enter your University"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_below="@id/textView_register_email"
+                android:background="@drawable/border"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewRelevantSkills"
+                android:layout_below="@id/editText_register_email"
+                android:text="List Relevant Skills"
+                android:textColor="@color/bluishblack"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextRelevantSkills"
+                android:hint="Skills like proficiency in java,sql,python etc"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_below="@id/textView_register_email"
+                android:background="@drawable/border"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewareas"
+                android:layout_below="@id/editText_register_email"
+                android:text="Specific Areas"
+                android:textColor="@color/bluishblack"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editareas"
+                android:hint="Machine Learning, Statistics, Data Analysis"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_below="@id/textView_register_email"
+                android:background="@drawable/border"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewprogrammingLanguages"
+                android:layout_below="@id/editText_register_email"
+                android:text="Technical Proficiency"
+                android:textColor="@color/bluishblack"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editprogrammingLanguages"
+                android:hint="Programming Languages, Tools, and Technology"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_below="@id/textView_register_email"
+                android:background="@drawable/border"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewprojectsInternships"
+                android:layout_below="@id/editText_register_email"
+                android:text="Specific Projects/Internships"
+                android:textColor="@color/bluishblack"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editprojectsInternships"
+                android:hint=" Mention your projects or internships"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_below="@id/textView_register_email"
+                android:background="@drawable/border"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewparticipatedIn"
+                android:layout_below="@id/editText_register_email"
+                android:text="Any conferences, workshops, or online communities you've participated in"
+                android:textColor="@color/bluishblack"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editparticipatedIn"
+                android:hint=" Details about your participations"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_below="@id/textView_register_email"
+                android:background="@drawable/border"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewachievements"
+                android:layout_below="@id/editText_register_email"
+                android:text="Your Achievements"
+                android:textColor="@color/bluishblack"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editachievements"
+                android:hint=" Enter Your Achivements"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_below="@id/textView_register_email"
+                android:background="@drawable/border"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVieworganization"
+                android:layout_below="@id/editText_register_email"
+                android:text="Your Organization"
+                android:textColor="@color/bluishblack"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editorganization"
+                android:hint=" Enter the Organization You Are Joining "
+                android:inputType="text"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_below="@id/textView_register_email"
+                android:background="@drawable/border"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_below="@id/editText_register_confirm_password"
+                android:layout_marginTop="30dp"
+                android:id="@+id/buttonGenerateSOP"
+                android:text="Generate SOP"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
