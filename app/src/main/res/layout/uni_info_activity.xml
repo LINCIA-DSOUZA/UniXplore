@@ -13,7 +13,12 @@
         <TextView
             android:id="@+id/uni_nameTextView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -24,25 +29,40 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
+                    android:layout_marginTop="20dp"
                     android:text="Description"
-                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
                     android:textColor="@color/black"
-                    android:textSize="15dp"/>
+                    android:textSize="16sp"/>
                 <TextView
                     android:id="@+id/uni_desc"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/bluishblack"
+                    android:textSize="16sp"
                     android:layout_height="wrap_content"/>
                 <TextView
                     android:id="@+id/acceptanceRateTextView"
                     android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/bluishblack"
+                    android:textSize="16sp"
                     android:layout_height="50dp"/>
                 <TextView
                     android:id="@+id/testTextView"
                     android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
                     android:layout_height="50dp"/>
                 <TextView
                     android:id="@+id/testScoreTextView"
                     android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/bluishblack"
+                    android:textSize="16sp"
                     android:layout_height="50dp"/>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -54,6 +74,10 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/bluishblack"
+                        android:textSize="16sp"
                         android:text="Course" />
 
                     <TextView
@@ -61,6 +85,9 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/bluishblack"
+                        android:textSize="16sp"
                         android:text="Stream" />
 
                     <TextView
@@ -68,12 +95,18 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/bluishblack"
+                        android:textSize="16sp"
                         android:text="Duration" />
                     <TextView
                         android:id="@+id/header_text4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/bluishblack"
+                        android:textSize="16sp"
                         android:text="Fees" />
                 </LinearLayout>
 
@@ -85,23 +118,36 @@
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/recyclerView1"
                         android:layout_width="0dp"
+                        android:layout_marginLeft="10dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/bluishblack"
+                        android:textSize="16sp"
                         android:layout_weight="1" />
 
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/recyclerView2"
                         android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/bluishblack"
+                        android:textSize="16sp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
 
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/recyclerView3"
                         android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/bluishblack"
+                        android:textSize="16sp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/recyclerView4"
                         android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/bluishblack"
+                        android:textSize="16sp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
                 </LinearLayout>
