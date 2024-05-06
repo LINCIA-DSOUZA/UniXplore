@@ -18,7 +18,7 @@ public class SplashScreen extends AppCompatActivity {
 
     TextView uniXplore, university;
 
-private static int Splash_timeout=2000;
+private static int Splash_timeout=1500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
