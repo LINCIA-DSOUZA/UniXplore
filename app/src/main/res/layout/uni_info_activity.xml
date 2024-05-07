@@ -55,6 +55,9 @@
                     android:id="@+id/testTextView"
                     android:layout_width="match_parent"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/bluishblack"
+                    android:textSize="16sp"
                     android:layout_height="50dp"/>
                 <TextView
                     android:id="@+id/testScoreTextView"
@@ -113,6 +116,9 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/bluishblack"
+                    android:textSize="16sp"
                     android:orientation="horizontal">
 
                     <androidx.recyclerview.widget.RecyclerView
